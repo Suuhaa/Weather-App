@@ -1,0 +1,118 @@
+<html>
+    <head>
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+
+    </head>
+    <body class="bg-dark">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4 ">
+          <div class="container "> <a class=" navbar-brand d-flex justify-content-between" href="#">
+              <img class="w-100 h-25" src="logo.png">
+
+<h5 class=" fs-5 h-25" >Weather <br> <p class="fs-6">Tagline goes here </p> </h5></a>
+
+          </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button></div> 
+            <div class="content ">    
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav d-flex justify-content-around">
+                <li class="nav-item active ">
+                  <a class="nav-link home-text py-0 px-3 " href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link py-0 px-3" href="#">News</a>
+                  </li>
+                <li class="nav-item ">
+                  <a class="nav-link py-0 px-3" href="#">Live Cameras</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link py-0 px-3" href="#">Photos</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link py-0 px-3" href="#">Contact</a>
+                  </li>
+
+              </ul>
+            </div></div>
+        
+          </nav>
+
+<div class="weather h-50 position-absolute w-100"> 
+  
+        <form class="form-inline position-relative w-75 m-auto d-flex py-5 ">
+          <input class="form-control bg-dark border-0 text-white position-absolute" type="search" placeholder="Find your location" aria-label="Search" id="input">
+          <button  class="btn btn-primary px-4 position-relative btn-pos" type="submit">Find</button>
+        </form>
+
+</div>
+
+<div class="weather-prediction text-white position-relative ">
+    <div class="container  ">
+        <div id="country" class="row rounded h-50 ">
+          <div class="col-sm  px-0 ">
+              <div class="today d-flex justify-content-between align-items-center px-3 pt-1 ">
+                    <p> Wednesday</p>
+             <p> 15September</p></div>
+
+             <h5 class="px-3 py-1 "> cairo</h5>
+
+             <div class="d-flex justify-content-between">  
+                 <h1 class="px-3"> 31</h1> 
+           <i class="fas fa-cloud-sun px-3 text-white"></i>
+        </div>
+        <p class="text-primary fs-6 px-3 py-1  "> partly cloud</p>
+        <div class="d-flex">        
+     <i class="fas fa-umbrella fs-6 ps-3 p-1"> </i> <p>20%</p>
+     <i class="fas fa-wind fs-6 ps-3  p-1"> </i> <p>18km/h</p>
+     <i class="far fa-compass fs-6 ps-3  p-1"> </i> <p>East</p>
+
+</div>
+          </div>
+         
+          <div class="col-sm text-center today px-0">
+            <div class=" bg-darker px-3 py-2"> Tuesday</div>
+            <i class="fas fa-wind fs-1 pt-5 "></i>
+            <h3 class="pt-1">10C</h3>
+            <p>5.7</p>
+            <p class="text-primary fs-6 "> partly cloud</p>
+          </div>
+          <div class="col-sm text-center px-0">
+            <div class="today  px-3 p-2"> Friday</div>
+            <i class="fas fa-snowflake fs-1 pt-5 "></i>
+            <h3 class="pt-1">10C</h3>
+            <p>5.7</p>
+            <p class="text-primary fs-6 "> partly cloud</p>
+          </div>
+        </div>
+      </div>
+
+</div>
+<div class="w-100 h-50 bg-dark"> </div>
+
+<footer class="w-100 h-25 position-relative "> 
+  
+ <form class="form-inline position-relative w-50  d-flex px-5 pt-5 ">
+          <input class="form-control bg-dark border-0 text-white position-absolute" type="search" placeholder="Enter your email to subscribe" aria-label="Search" id="input">
+          <button  class="btn btn-primary px-4 position-relative btn2-pos" type="submit">Subscribe</button>
+        </form>
+
+        <div class=" position-absolute icons">
+          <i class="fab fa-facebook-f "></i>          
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-google-plus-g"></i>
+          <i class="fab fa-pinterest-p"></i>
+        </div>
+
+        <p class="text-white px-5 pt-2 mx-5 ">   Copyright 2014 Company name. Designed by Themezy. All rights reserved     </p>
+
+
+</footer>
+<script src="js/bootstrap.min.js"> </script>
+<script src="js/popper.min.js"> </script>
+<script src="script.js" > </script>
+    </body>
+</html>

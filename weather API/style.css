@@ -1,0 +1,89 @@
+.bg-dark {
+    background-color: rgb(30, 32, 43) !important;
+}
+ li a {
+     width: 130px;
+     color: white !important;
+     text-align: center;
+      margin: 5px;
+      box-sizing: border-box !important;
+
+ }
+ li a:hover{
+       color: rgb(0, 154, 216) !important;
+         border: solid rgb(0, 154, 216);
+         border-width: 2px 2px;
+         border-radius: 40px;    
+}
+.home-text
+{
+    color: rgb(0, 154, 216) !important;
+    border: solid rgb(0, 154, 216);
+    border-width: 2px 2px;
+    border-radius: 40px;   
+}
+.weather {
+    background-image: url("banner.png");
+}
+
+.form-control 
+{
+height: 50px;
+border-width: 2px 2px;
+border-radius: 40px; 
+}
+.btn-pos {
+    top: 5px;
+    left: 91.5%;
+    border-width: 2px 2px;
+border-radius: 40px; 
+}
+.weather-prediction {
+top: 40%;
+}
+.weather-prediction .container .row
+{
+background-color: rgb(44, 47, 61) ;
+}
+.col-sm p,h5,i {
+    color:#Bfc1c8 ;
+}
+.col-sm h1,i {
+    font-size: 70px;
+}
+.today
+{
+    background-color: rgb(38, 41, 54) ;
+  
+}
+.bg-darker {
+    background-color: rgb(33, 37, 44) !important;
+
+}
+footer {
+    background-color: rgb(38, 41, 54) ;
+  
+}
+.btn2-pos {
+    top: 5px;
+    left: 95%;
+    border-width: 2px 2px;
+border-radius: 40px; 
+}
+
+.icons {
+top : 50px;
+right : 120px;
+}
+.icons i {
+    font-size: 20px !important;
+    background-color: rgb(30, 32, 43) !important;
+padding: 15px 15px;
+margin: 3px;
+border-radius: 50%;
+color: rgb(68, 142, 192) !important;
+}
+.icons i:hover{
+   color: white !important;
+   background-color: rgb(68, 142, 192) !important;
+}
